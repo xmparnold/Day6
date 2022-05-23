@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <button onclick="alert('hello')">Click Me!</button>
+
+    <!-- button that increments a count -->
+    <button onclick="counter(this)">1</button>
+    <button onclick="specialCounter(this)"><span id="number">1</span> likes</button>
+    <button onclick="counter(this)">1</button>
+
+    <!-- always link the javascript file at the bottom like this, we must load up script after html elements -->
+    <script src="script.js"></script>
+</body>
+</html>
